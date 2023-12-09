@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "eBay Best Sellers",
+  "description": "Shows eBay's best sellers",
+  "version": "1.0",
+  "permissions": ["https://www.ebay.com/", "activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
